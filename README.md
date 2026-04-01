@@ -43,23 +43,9 @@ It explores the structure of the network, identifies important nodes, detects co
 | Graph Type | Undirected |
 | Connectivity | Fully Connected |
 
----
 
-## 🖥️ **System Flow**
 
-```mermaid
-graph TD
-    A[📂 Load Dataset] --> B[🌐 Build Graph (NetworkX)]
-    B --> C[📊 Basic Analysis]
-    B --> D[📈 Visualization]
-    B --> E[🔗 Connectivity Analysis]
-    B --> F[📐 Matrix Representation]
-    B --> G[🧠 Centrality Measures]
-    B --> H[🧩 Community Detection]
-    
-    C --> I[📊 Results & Insights]
-    D --> I
-    E --> I
-    F --> I
-    G --> I
-    H --> I
+👩‍💻 Author
+
+Nourhan Mohammed
+Computer Science Student | Data Enthusiast
