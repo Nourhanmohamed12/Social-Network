@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=60A5FA&center=true&vCenter=true&lines=Social+Network+Analysis;Facebook+Graph+Study;NetworkX+Project+📊" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=60A5FA&center=true&vCenter=true&lines=Social+Network+Analysis;Facebook+Graph+Study;Network+Project+📊" />
   <br><br>
   <img src="https://img.shields.io/badge/🎓-Academic%20Project-1E40AF?style=for-the-badge&logo=university&logoColor=white" />
   <img src="https://img.shields.io/badge/🌐-4039%20Nodes-3B82F6?style=for-the-badge&logo=graph&logoColor=white" />
