@@ -1,22 +1,22 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=60A5FA&center=true&vCenter=true&lines=Compression+Algorithms+Tool;Data+Compression+Analysis;Python+GUI+Project+📊" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=60A5FA&center=true&vCenter=true&lines=Social+Network+Analysis;Facebook+Graph+Study;NetworkX+Project+📊" />
   <br><br>
   <img src="https://img.shields.io/badge/🎓-Academic%20Project-1E40AF?style=for-the-badge&logo=university&logoColor=white" />
-  <img src="https://img.shields.io/badge/⚡-5%20Algorithms-3B82F6?style=for-the-badge&logo=code&logoColor=white" />
+  <img src="https://img.shields.io/badge/🌐-4039%20Nodes-3B82F6?style=for-the-badge&logo=graph&logoColor=white" />
 </div>
 
 ---
 
 ## <div align="center"><b style="color:#1E40AF">📊 Project Overview</b></div>
 
-**Compression Algorithms Comparison Tool** is a **Python-based desktop application** that allows users to analyze and compare multiple **lossless compression techniques**.
+This project performs an in-depth **Social Network Analysis** on a real-world dataset (**Facebook Network Dataset**) using **Graph Theory concepts** and Python.
 
-It provides a hands-on way to understand how different algorithms behave on real text data using **Information Theory metrics**.
+It explores the structure of the network, identifies important nodes, detects communities, and analyzes relationships using **NetworkX** and **Matplotlib**.
 
 <div align="center">
-  <img src="https://img.shields.io/badge/🧠-Information%20Theory-60A5FA?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/📉-Compression%20Analysis-3B82F6?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/🖥️-Tkinter%20GUI-1E40AF?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/🧠-Graph%20Theory-60A5FA?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/📊-Network%20Analysis-3B82F6?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/🐍-Python-1E40AF?style=for-the-badge" />
 </div>
 
 ---
@@ -25,32 +25,23 @@ It provides a hands-on way to understand how different algorithms behave on real
 
 | Feature | Description |
 |--------|------------|
-| 📝 Text Input | Enter any custom text for compression |
-| ⚙️ Multi-Algorithm | Compare 5 compression algorithms |
-| 📊 Detailed Metrics | Entropy, efficiency, compression ratio |
-| 🧠 Educational | Learn how each algorithm works |
-| 🖥️ GUI Interface | Simple and interactive Tkinter UI |
+| 🌐 Graph Construction | Load and analyze real Facebook network |
+| 📊 Degree Analysis | Compute node degrees and distributions |
+| 🔗 Connectivity | Check if graph is connected |
+| 🧠 Centrality Measures | Identify most important nodes |
+| 🧩 Community Detection | Discover hidden communities |
+| 📈 Visualization | Graph plots and insights |
 
 ---
 
-## 🧮 **Algorithms Implemented**
+## 📊 **Dataset Information**
 
-- 📌 **Golomb Encoding**
-- 📌 **LZW (Lempel-Ziv-Welch)**
-- 📌 **Run-Length Encoding (RLE)**
-- 📌 **Huffman Coding**
-- 📌 **Arithmetic Encoding**
-
----
-
-## 📊 **Metrics Calculated**
-
-- Compression Ratio  
-- Entropy  
-- Efficiency  
-- Average Code Length  
-- Bits Before / After Encoding  
-- Symbol Probability Distribution  
+| Metric | Value |
+|------|------|
+| Nodes | 4039 |
+| Edges | 88234 |
+| Graph Type | Undirected |
+| Connectivity | Fully Connected |
 
 ---
 
@@ -58,17 +49,17 @@ It provides a hands-on way to understand how different algorithms behave on real
 
 ```mermaid
 graph TD
-    A[📝 User Input Text] --> B[⚙️ Encoding Algorithms]
-    B --> C[📌 Golomb]
-    B --> D[📌 LZW]
-    B --> E[📌 RLE]
-    B --> F[📌 Huffman]
-    B --> G[📌 Arithmetic]
+    A[📂 Load Dataset] --> B[🌐 Build Graph (NetworkX)]
+    B --> C[📊 Basic Analysis]
+    B --> D[📈 Visualization]
+    B --> E[🔗 Connectivity Analysis]
+    B --> F[📐 Matrix Representation]
+    B --> G[🧠 Centrality Measures]
+    B --> H[🧩 Community Detection]
     
-    C --> H[📊 Metrics Calculation]
-    D --> H
-    E --> H
-    F --> H
-    G --> H
-    
-    H --> I[📈 Results Display (Tkinter GUI)]
+    C --> I[📊 Results & Insights]
+    D --> I
+    E --> I
+    F --> I
+    G --> I
+    H --> I
